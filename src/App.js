@@ -8,6 +8,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' exact element={<HomeScreen />} />
+          <Route path='/projects/:id' exact element={<ProjectScreen />} />
         </Routes>
       </BrowserRouter>
     </>
