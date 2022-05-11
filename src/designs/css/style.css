@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+.fw-reg {
+  font-weight: 400;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.hero-segment {
+  height: 100vh;
+  background-color: #8eb4c0;
+}
+
+.hero-segment .mi-name {
+  line-height: 80px;
+}
+
+.hero-segment .professions {
+  display: flex;
+  margin-top: 20px;
+}
+
+.hero-segment .professions div {
+  padding: 5px 20px;
+  font-size: 14px;
+  color: #525050;
+  border: 1px solid #f8f9fa;
+  border-radius: 20px;
+  background-color: #cacbcc;
+}
+
+.hero-segment .professions div:not(:last-child) {
+  margin-right: 3px;
+}
+
+.about-segment {
+  height: 100vh;
+  background-color: #6a8e99;
+}
+
+.expertise-segment {
+  height: 100vh;
+  background-color: #446e7a;
+}
+
+.project-segment {
+  height: 100vh;
+  background-color: #245c6b;
+}

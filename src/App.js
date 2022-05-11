@@ -1,6 +1,7 @@
 import HomeScreen from './screens/HomeScreen'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import ProjectScreen from './screens/ProjectScreen'
+import './designs/css/style.css'
 
 function App() {
   return (
