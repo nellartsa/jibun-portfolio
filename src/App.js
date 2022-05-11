@@ -1,13 +1,16 @@
-import logo from './logo.svg'
-import './App.css'
-
 import HomeScreen from './screens/HomeScreen'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import ProjectScreen from './screens/ProjectScreen'
 
 function App() {
   return (
-    <div className='App'>
-      <HomeScreen />
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' exact element={<HomeScreen />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   )
 }
 

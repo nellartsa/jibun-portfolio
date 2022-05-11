@@ -10,7 +10,7 @@ const projects = [
       { _id: 2, action: 'Database Configuration' },
       { _id: 3, action: 'Data Manipulation' },
     ],
-    description: '',
+    description: 'asdkladaksd <br><br> adads',
   },
   {
     _id: 2,
